@@ -1,0 +1,209 @@
+/* 
+  Localizable.strings
+  DoBetter
+
+  Created by Никита Шестаков on 17.04.2023.
+  
+*/
+
+"emailPlaceholder" = "Enter email";
+"passwordPlaceholder" = "Enter password";
+"nicknamePlaceholder" = "Enter nickname";
+"reenterPasswordPlaceholder" = "Enter password one more time...";
+"phonePlaceholder" = "Enter phone number";
+
+"SignIn.continue" = "Sign In";
+"SignIn.signUp" = "Don't have an account yet? Sign Up";
+"SignIn.signWithPhone" = "Sign with phone";
+"SignIn.signWithGoogle" = "Sign with Google";
+"SignIn.signWithEmail" = "Sign In with email";
+"SignIn.title" = "Sign In";
+
+"Sign.incorrectPassword" = "Length from 7 symbols\nCan contains latin letters, digits and spec symbols";
+"Sign.allFieldsRequired" = "Enter all fields";
+"Sign.differentPasswords" = "Passwords must be the same";
+"Sign.incorrectNickName" = "Enter correct nickname";
+"Sign.incorrectEmail" = "Enter correct email";
+"Sign.incorrectPhone" = "Enter correct phone";
+"Sign.phoneNumberExists" = "Phone already exists. Please, Sign In";
+"Sign.phoneNumberNotExists" = "Phone is not registered. Please, Sign Up";
+"Sign.nicknameExists" = "Nickname exists";
+"Sign.agreement1" = "By continuing, you agree to the ";
+"Sign.agreement2" = "Privacy Policy";
+
+"SignUp.continue" = "Sign Up";
+"SignUp.signIn" = "Already have an account? Sign In";
+"SignUp.signWithPhone" = "Sign with phone";
+"SignUp.signWithEmail" = "Sign with email";
+"SignUp.title" = "Sign Up";
+
+"PhoneCode.emptyCode" = "Code isn't entered";
+"PhoneCode.sendCodeAfter1" = "Send code after seconds";
+"PhoneCode.sendCodeAfter2" = "seconds";
+"PhoneCode.questionCode1" = "Code didn't arrive?";
+"PhoneCode.questionCode2" = "Send again";
+"PhoneCode.questionCode3" = "Please, wait";
+"PhoneCode.codeSent" = "Code was sent";
+"PhoneCode.retry" = "Retry";
+"PhoneCode.send" = "Send";
+"PhoneCode.placeholder" = "Enter your code";
+"PhoneCode.title" = "Enter code";
+"PhoneCode.sendingVerification" = "Sending verification code";
+"PhoneCode.checkingVerification" = "Checking verification code";
+
+"PinCode.notAvailable" = "Turn on %@ in settings";
+"PinCode.passcodeNotSet" = "Passcode isn't set";
+"PinCode.bioAuthNotEnabled" = "BioAuth isn't enabled";
+"PinCode.exit" = "Exit account?";
+"PinCode.exitButton" = "Exit";
+"PinCode.settings" = "Settings";
+"PinCode.tryAgain" = "Try again";
+"PinCode.title" = "PIN-Code";
+
+"cancel" = "Cancel";
+"somethingWentWrong" = "Something went wrong";
+"unexpectedError" = "An unexpected error occurred";
+
+"MyFeed.searchTaskPlaceholder" = "Search task by title";
+"MyFeed.title" = "Feed";
+"MyFeed.filters" = "Filters";
+"MyFeed.stopperTitle" = "Your tasks will be displayed here";
+"MyFeed.stopperSubtitle" = "Try to create your own task with plus button below!";
+
+"edit" = "Edit";
+"done" = "Done";
+"save" = "Save";
+"clear" = "Clear";
+
+"OtherFeed.title" = "Followings feed";
+"OtherFeed.stopperTitle" = "Followings tasks will be displayed here";
+"OtherFeed.stopperSubtitle" = "Try to find and follow someone interesting with search button above!";
+"OtherFeed.stopperOtherTitle" = "No tasks for user";
+
+"MyFeed.Filters.dateTo" = "Select end date of creation";
+"MyFeed.Filters.dateFrom" = "Select start date of creation";
+"MyFeed.Filters.endDateTo" = "Select end date of deadline";
+"MyFeed.Filters.endDateFrom" = "Select start date of deadline";
+"MyFeed.Filters.onlyInProgress" = "Only in progress tasks";
+"MyFeed.Filters.onlyDone" = "Only done tasks";
+
+"add" = "Add";
+"remove" = "Remove";
+"addSmall" = "Add";
+"removeSmall" = "Remove";
+
+"Profile.statisticsLabel" = "Tasks statistics";
+"Profile.statisticsPlaceholder" = "No tasks statistics provided";
+"Profile.summaryLabel" = "Summary";
+"Profile.summaryPlaceholder" = "No summary provided";
+"Profile.tasksLabel" = "Tasks";
+"Profile.tasksPlaceholder" = "No tasks provided";
+"Profile.followersLabel" = "Followers";
+"Profile.followersPlaceholder" = "No followers provided";
+"Profile.followingsLabel" = "Followings";
+"Profile.followingsPlaceholder" = "No followings provided";
+
+"all" = "All";
+
+"Profile.Edit.title" = "Edit Profile";
+"Profile.Edit.nameInfo" = "Enter your first and last name";
+"Profile.Edit.nicknameInfo" = "Enter your nickname";
+"Profile.Edit.descriptionInfo" = "Write something about yourself\nFor example: 23 y.o. designer from California";
+"Profile.Edit.namePlaceholder" = "Enter name";
+"Profile.Edit.nicknamePlaceholder" = "Enter nickname";
+"Profile.Edit.descriptionPlaceholder" = "Enter summary";
+"Profile.Edit.emptyNickname" = "Nickname must be filled";
+
+"SearchUsers.filterNamePlaceholder" = "Enter name or nickname";
+"SearchUsers.users" = "Users";
+
+"CreateTask.titleChange" = "Change task";
+"CreateTask.titleCreate" = "Create task";
+"CreateTask.infoColor" = "Select task color";
+"CreateTask.infoSection" = "Select task section";
+"CreateTask.namePlaceholder" = "Enter title";
+"CreateTask.nameInfo" = "Task title";
+"CreateTask.descriptionPlaceholder" = "Enter task description";
+"CreateTask.descriptionInfo" = "Task description";
+"CreateTask.endDate" = "Select end date";
+
+"TabBar.myFeed" = "My Feed";
+"TabBar.feed" = "Feed";
+
+"Settings.title" = "Settings";
+"Settings.bioAuth" = "FaceID/TouchID";
+"Settings.secure" = "Hide profile from search";
+"Settings.exit" = "Exit";
+"Settings.confirmExitTitle" = "Confirm exit";
+"Settings.confirmExitSubtitle" = "Are you sure you want to exit?";
+"Settings.disableBioTitle" = "Disable bio auth authorization?";
+"Settings.disableBioSubtitle" = "It won't secure your data";
+
+"ok" = "Ok";
+
+"BioAuth.titleAlert" = "Enable bio auth authorization";
+"BioAuth.subtitleAlert" = "It will secure your data";
+
+"BioAuth.kTouchIdAuthenticationReason" = "Confirm your fingerprint to authenticate.";
+"BioAuth.kTouchIdPasscodeAuthenticationReason" = "ouch ID is locked now, because of too many failed attempts. Enter passcode to unlock Touch ID.";
+"BioAuth.kSetPasscodeToUseTouchID" = "Please set device passcode to use Touch ID for authentication.";
+"BioAuth.kNoFingerprintEnrolled" = "There are no fingerprints enrolled in the device. Please go to Device Settings -> Touch ID and Passcode and enroll your fingerprints.";
+"BioAuth.kDefaultTouchIDAuthenticationFailedReason" = "Touch ID does not recognize your fingerprint. Please try again with your enrolled fingerprint.";
+"BioAuth.kFaceIdAuthenticationReason" = "Confirm your face to authenticate.";
+"BioAuth.kFaceIdPasscodeAuthenticationReason" = "Face ID is locked now, because of too many failed attempts. Enter passcode to unlock Face ID.";
+"BioAuth.kSetPasscodeToUseFaceID" = "Please set device passcode to use Face ID for authentication.";
+"BioAuth.kNoFaceIdentityEnrolled" = "There are no face enrolled in the device. Please go to Device Settings -> Face ID and Passcode and enroll your face.";
+"BioAuth.kDefaultFaceIDAuthenticationFailedReason" = "Face ID does not recognize your face. Please try again with your enrolled face.";
+
+"Statistics.inProgress" = "In progress";
+"Statistics.expired" = "Expired";
+"Statistics.done" = "Done";
+"Statistics.total" = "Total";
+
+"Task.Section.none" = "none";
+"Task.Section.home" = "home";
+"Task.Section.work" = "work";
+"Task.Section.business" = "business";
+"Task.Section.study" = "study";
+"Task.Section.friends" = "friends";
+"Task.Section.family" = "family";
+
+"imageUpload" = "Upload image";
+"deleteImage" = "Delete image";
+
+"Task.title" = "Task";
+"Task.done" = "Done";
+"Task.inProgress" = "In Progress";
+"Task.new" = "New";
+"Task.setAsDone" = "Set as Done";
+"Task.setAsNew" = "Set as New";
+"Task.setAsInProgress" = "Set In Progress";
+"Task.description" = "Description";
+"Task.createdAt" = "Created At";
+"Task.creator" = "Creator";
+"Task.timeLeft" = "Time Left";
+"Task.noDeadline" = "No Deadline";
+"Task.moreThanDay" = "Over Day";
+"Task.expired" = "Expired";
+
+"SearchHiddenUser.title" = "Search hidden user";
+"SearchHiddenUser.find" = "Search";
+
+"Firebase.captchaCheckFailed" = "Captcha check failed";
+"Firebase.emailAlreadyInUse" = "Email is already in use. Try another one";
+"Firebase.userDisabled" = "User is disabled";
+"Firebase.operationNotAllowed" = "Operation not allowed";
+"Firebase.invalidEmail" = "Incorrect email";
+"Firebase.wrongPassword" = "Wrong password";
+"Firebase.userNotFound" = "User not found. Try to sign up!";
+"Firebase.networkError" = "Some problems with network connection";
+"Firebase.missingEmail" = "Email wasn't found";
+"Firebase.internalError" = "Internal server error";
+"Firebase.invalidCustomToken" = "Incorrect user token";
+"Firebase.tooManyRequests" = "Too many requests. Try again later";
+"Firebase.invalidPhoneNumber" = "Invalid phone number";
+"Firebase.invalidVerificationCode" = "Invalid verification code";
+"Firebase.quotaExceeded" = "Limit reached. Try again tomorrow";
+"Firebase.noUser" = "No user was found. Please, sign in";
+"Firebase.invalidVerificationID" = "VerificationID was lost. Please, try again";
+"Firebase.cliendIDNotFound" = "Please, try again";

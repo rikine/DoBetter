@@ -1,0 +1,209 @@
+/* 
+  Localizable.strings
+  DoBetter
+
+  Created by Никита Шестаков on 17.04.2023.
+  
+*/
+
+"emailPlaceholder" = "Введите почту";
+"passwordPlaceholder" = "Введите пароль";
+"nicknamePlaceholder" = "Введите логин";
+"reenterPasswordPlaceholder" = "Введите пароль ещё раз...";
+"phonePlaceholder" = "Введите номер телефона";
+
+"SignIn.continue" = "Войти";
+"SignIn.signUp" = "Все ещё нет аккаунта?\nЗарегистрируйтесь";
+"SignIn.signWithPhone" = "С номером телефона";
+"SignIn.signWithGoogle" = "Через Google";
+"SignIn.signWithEmail" = "С почтой";
+"SignIn.title" = "Авторизация";
+
+"Sign.incorrectPassword" = "Длина от 7 символов\nМожет содержать латинские буквы, цифры и спец.символы";
+"Sign.allFieldsRequired" = "Заполните все поля";
+"Sign.differentPasswords" = "Пароль должны быть одинаковыми";
+"Sign.incorrectNickName" = "Некорректный логин\nНе должен содержать пробелы";
+"Sign.incorrectEmail" = "Некорректная почта";
+"Sign.incorrectPhone" = "Некорректный номер телефона";
+"Sign.phoneNumberExists" = "Телефон уже зарегистрирован. Пожалуйста, авторизуйтесь";
+"Sign.phoneNumberNotExists" = "Телефон ещё не зарегистрирован. Пожалуйста, зарегистрируйтесь";
+"Sign.nicknameExists" = "Логин существует, попробуйте другой";
+"Sign.agreement1" = "Продолжая, вы соглашаетесь с";
+"Sign.agreement2" = "политикой конфиденциальности";
+
+"SignUp.continue" = "Войти";
+"SignUp.signIn" = "Уже есть аккаунт?\nАвторизируйтесь";
+"SignUp.signWithPhone" = "С номером телефона";
+"SignUp.signWithEmail" = "С почтой";
+"SignUp.title" = "Регистрация";
+
+"PhoneCode.emptyCode" = "Код не введён";
+"PhoneCode.sendCodeAfter1" = "Отправить код через";
+"PhoneCode.sendCodeAfter2" = "секунд";
+"PhoneCode.questionCode1" = "Код не пришел?";
+"PhoneCode.questionCode2" = "Отправить ещё раз";
+"PhoneCode.questionCode3" = "Пожалуйста, подождите";
+"PhoneCode.codeSent" = "Код отправлен";
+"PhoneCode.retry" = "Повторить";
+"PhoneCode.send" = "Отправить";
+"PhoneCode.placeholder" = "Введите код";
+"PhoneCode.title" = "Ввод кода";
+"PhoneCode.sendingVerification" = "Отправка проверочного кода";
+"PhoneCode.checkingVerification" = "Проверка кода";
+
+"PinCode.notAvailable" = "Включите %@ в настройках";
+"PinCode.passcodeNotSet" = "Пароль не задан";
+"PinCode.bioAuthNotEnabled" = "TouchID/FaceID не включен";
+"PinCode.exit" = "Выйти из аккаунта";
+"PinCode.exitButton" = "Выйти";
+"PinCode.settings" = "Настройки";
+"PinCode.tryAgain" = "Повторить";
+"PinCode.title" = "PIN-Код";
+
+"cancel" = "Отмена";
+"somethingWentWrong" = "Что-то пошло не так";
+"unexpectedError" = "Произошла непредвиденная ошибка";
+
+"MyFeed.searchTaskPlaceholder" = "Поиск задачи по названию";
+"MyFeed.title" = "Моя лента";
+"MyFeed.filters" = "Фильтры";
+"MyFeed.stopperTitle" = "Ваши задачи будут отобраться здесь";
+"MyFeed.stopperSubtitle" = "Попробуйте создать свою первую задачу, нажав на кнопку '+' ниже!";
+
+"edit" = "Ред.";
+"done" = "Готово";
+"save" = "Сохранить";
+"clear" = "Очистить";
+
+"OtherFeed.title" = "Лента подписок";
+"OtherFeed.stopperTitle" = "Задачи пользователей, на которых Вы подписаны будут отображаться здесь";
+"OtherFeed.stopperOtherTitle" = "Задачи пользователя пусты";
+"OtherFeed.stopperSubtitle" = "Попробуйте найти и подписаться на интересных пользователей, нажав на кнопку поиска выше!";
+
+"MyFeed.Filters.dateTo" = "Выберите максимальную дату создания";
+"MyFeed.Filters.dateFrom" = "Выберите минимальную дату создания";
+"MyFeed.Filters.endDateTo" = "Выберите максимальную дату дедлайна";
+"MyFeed.Filters.endDateFrom" = "Выберите минимальную дату дедлайна";
+"MyFeed.Filters.onlyInProgress" = "Только задачи в процессе";
+"MyFeed.Filters.onlyDone" = "Только готовые задачи";
+
+"add" = "Добавить";
+"remove" = "Удалить";
+"addSmall" = "Доб.";
+"removeSmall" = "Удалить";
+
+"Profile.statisticsLabel" = "Статистика задач";
+"Profile.statisticsPlaceholder" = "Стастика задач ещё не загрузилась";
+"Profile.summaryLabel" = "Описание";
+"Profile.summaryPlaceholder" = "Описания ещё нет";
+"Profile.tasksLabel" = "Задачи";
+"Profile.tasksPlaceholder" = "Задач ещё нет";
+"Profile.followersLabel" = "Подписчики";
+"Profile.followersPlaceholder" = "Подписчиков ещё нет";
+"Profile.followingsLabel" = "Подписки";
+"Profile.followingsPlaceholder" = "Подписок ещё нет";
+
+"all" = "Все";
+
+"Profile.Edit.title" = "Редактирование";
+"Profile.Edit.nameInfo" = "Введите свои фамилию и имя";
+"Profile.Edit.nicknameInfo" = "Введите логин";
+"Profile.Edit.descriptionInfo" = "Напишите что-нибудь о себе\nНапример: 23 года, дизайнер из Санкт-Петербурга";
+"Profile.Edit.namePlaceholder" = "Введите имя";
+"Profile.Edit.nicknamePlaceholder" = "Введите логин";
+"Profile.Edit.descriptionPlaceholder" = "Введите описание";
+"Profile.Edit.emptyNickname" = "Логин должен быть заполнен";
+
+"SearchUsers.filterNamePlaceholder" = "Введите имя или логин";
+"SearchUsers.users" = "Пользователи";
+
+"CreateTask.titleChange" = "Изменить задачу";
+"CreateTask.titleCreate" = "Создать задачу";
+"CreateTask.infoColor" = "Выберите цвет";
+"CreateTask.infoSection" = "Выберите раздел";
+"CreateTask.namePlaceholder" = "Введите название";
+"CreateTask.nameInfo" = "Название задачи";
+"CreateTask.descriptionPlaceholder" = "Введите описание";
+"CreateTask.descriptionInfo" = "Описание задачи";
+"CreateTask.endDate" = "Выберите дату дедлайна";
+
+"TabBar.myFeed" = "Моя лента";
+"TabBar.feed" = "Лента";
+
+"Settings.title" = "Настройки";
+"Settings.bioAuth" = "FaceID/TouchID";
+"Settings.secure" = "Скрыть профиль из поиска";
+"Settings.exit" = "Выйти";
+"Settings.confirmExitTitle" = "Подтвердите выход";
+"Settings.confirmExitSubtitle" = "Вы действительно хотите выйти из аккаунта?";
+"Settings.disableBioTitle" = "Отключить FaceID/TouchID?";
+"Settings.disableBioSubtitle" = "Это не защитит ваши данные";
+
+"ok" = "Ок";
+
+"BioAuth.titleAlert" = "Включить FaceID/TouchID?";
+"BioAuth.subtitleAlert" = "Это защитит ваши данные";
+
+"BioAuth.kTouchIdAuthenticationReason" = "Подтвердите отпечатком для авторизации";
+"BioAuth.kTouchIdPasscodeAuthenticationReason" = "TouchID заблокирован, потому что использовано слишком много попыток. Введите пароль, чтобы разблокировать TouchID";
+"BioAuth.kSetPasscodeToUseTouchID" = "Установите пароль устройства, чтобы использовать TouchID";
+"BioAuth.kNoFingerprintEnrolled" = "Нет доступных отпечатков на устройстве. Пожалуйста, добавьте отпечатки в настройках";
+"BioAuth.kDefaultTouchIDAuthenticationFailedReason" = "TouchID не распознал ваш отпечаток. Пожалуйста, повторите попытку";
+"BioAuth.kFaceIdAuthenticationReason" = "Подтвердите лицо для авторизации";
+"BioAuth.kFaceIdPasscodeAuthenticationReason" = "FaceID заблокирован, потому что использовано слишком много попыток. Введите пароль, чтобы разблокировать FaceID";
+"BioAuth.kSetPasscodeToUseFaceID" = "Установите пароль устройства, чтобы использовать FaceID";
+"BioAuth.kNoFaceIdentityEnrolled" = "Нет доступных лиц на устройстве. Пожалуйста, добавьте лица в настройках";
+"BioAuth.kDefaultFaceIDAuthenticationFailedReason" = "TouchID не распознал ваше лицо. Пожалуйста, повторите попытку";
+
+"Statistics.inProgress" = "В процессе";
+"Statistics.expired" = "Просрочено";
+"Statistics.done" = "Готово";
+"Statistics.total" = "Всего";
+
+"Task.Section.none" = "отсутствует";
+"Task.Section.home" = "дом";
+"Task.Section.work" = "работа";
+"Task.Section.business" = "бизнес";
+"Task.Section.study" = "учёба";
+"Task.Section.friends" = "друзья";
+"Task.Section.family" = "семья";
+
+"imageUpload" = "Загрузить фото";
+"deleteImage" = "Удалить фото";
+
+"Task.title" = "Задача";
+"Task.done" = "Готова";
+"Task.inProgress" = "В процессе";
+"Task.new" = "Новая";
+"Task.setAsDone" = "Отметить как Готовую";
+"Task.setAsNew" = "Отметить как Новую";
+"Task.setAsInProgress" = "Отметить как В Процессе";
+"Task.description" = "Описание";
+"Task.createdAt" = "Создана В";
+"Task.creator" = "Создатель";
+"Task.timeLeft" = "Осталось";
+"Task.noDeadline" = "Беcсрочно";
+"Task.moreThanDay" = "Больше Дня";
+"Task.expired" = "Просрочена";
+
+"SearchHiddenUser.title" = "Поиск скрытого пользователя";
+"SearchHiddenUser.find" = "Найти";
+
+"Firebase.captchaCheckFailed" = "Каптча не пройдена";
+"Firebase.emailAlreadyInUse" = "Email уже используется. Попробуйте другой";
+"Firebase.userDisabled" = "Пользователь отключён";
+"Firebase.operationNotAllowed" = "Операция запрещена";
+"Firebase.invalidEmail" = "Неправильная почта";
+"Firebase.wrongPassword" = "Неправильный пароль";
+"Firebase.userNotFound" = "Пользователь не найден. Попробуйте зарегистрироваться!";
+"Firebase.networkError" = "Проблемы с подключением к интернету";
+"Firebase.missingEmail" = "Почта не найдена";
+"Firebase.internalError" = "Внутренняя ошибка сервера";
+"Firebase.invalidCustomToken" = "Ошибка токена";
+"Firebase.tooManyRequests" = "Слишком много запросов. Попробуйте позже";
+"Firebase.invalidPhoneNumber" = "Неправильный номер телефона";
+"Firebase.invalidVerificationCode" = "Неправильный код подтверждения";
+"Firebase.quotaExceeded" = "Лимит достигнут. Попробуйте завтра";
+"Firebase.noUser" = "Пожалуйста, войдите";
+"Firebase.invalidVerificationID" = "Код верификации потерян. Пожалуйста, попробуйте ещё раз";
+"Firebase.cliendIDNotFound" = "Пожалуйста, попробуйте ещё раз";
